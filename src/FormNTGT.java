@@ -24,7 +24,7 @@ public final class FormNTGT extends Form implements CommandListener, ItemStateLi
    private final TextField ntgtAL;
 
    public FormNTGT() {
-      super("AngelChip Auto");
+      super("NTGT Auto");
       this.ntgtAJ = new TextField[AutoNTGT.ntgtBE.length];
       this.ntgtAL = new TextField("Bán cho người ngoài max?", String.valueOf(AutoNTGT.ntgtBH), 3, 2);
       this.ntgtAD = new ChoiceGroup("Auto trục xuất?", 1, new String[]{"Trục xuất", "Giữ lại"}, (Image[])null);
