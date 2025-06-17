@@ -10,7 +10,7 @@ import javax.microedition.lcdui.Image;
 import javax.microedition.lcdui.TextField;
 
 public final class FormSell implements CommandListener {
-   Form sellerAA = new Form("AngelChip AutoSell");
+   Form sellerAA = new Form("AutoSell");
    private javax.microedition.lcdui.Command sellerAB = new javax.microedition.lcdui.Command("Lưu", 4, 0);
    private javax.microedition.lcdui.Command sellerAC = new javax.microedition.lcdui.Command("Hủy", 3, 1);
    private TextField sellerAD;
